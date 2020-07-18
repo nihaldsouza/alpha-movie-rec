@@ -107,8 +107,8 @@ with st.spinner('Initializing...'):
     
     '''#### Tweak the Model:
     '''
-    min_neighbours_value = st.slider('Minimum neighbours', value=min_neighbours, min_value=1, max_value=10)
-    max_neighbours_value = st.slider('Maximum neighbours', value=max_neighbours, min_value=10, max_value=20)
+    min_neighbours_value = st.slider('Minimum neighbours', value=min_neighbours, min_value=1, max_value=20)
+    max_neighbours_value = st.slider('Maximum neighbours', value=max_neighbours, min_value=1, max_value=20)
     algo = generate_model(data, min_neighbours_value, max_neighbours_value)
     
     ''' #### Recommendations for ''', user
