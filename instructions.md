@@ -1,4 +1,4 @@
 # Alpha Movie Recommender
 ##### Powered by lenskit
 
-👈 Select an option from the dropdown in the sidebar.
+👈 Select an option from the drop down in the sidebar.
